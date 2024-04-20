@@ -148,6 +148,7 @@ table {
   --font-lexend: "Lexend", sans-serif;
   --font-wendy-one: "Wendy One", sans-serif;
   --black-color: #171618;
+  --blue-color: rgba(38, 169, 241, 1);
 }
 
 .lexend-font {
@@ -158,7 +159,7 @@ table {
   font-family: "Wendy One", sans-serif;
 }
 
-/* =================== INTRO Page =============================== */
+/* Intro Page */
 .intro-page {
   background: url("../images/intro-background.png");
   background-repeat: no-repeat;
@@ -237,7 +238,7 @@ table {
 
 .intro-page .intro-page-wrapper .btn-download-app {
   font-family: var(--font-lexend);
-  background: #26a9f1;
+  background: var(--blue-color);
   outline: 6px solid #EBEBEB;
   border-radius: 6px;
   margin-bottom: 20px;
@@ -249,9 +250,9 @@ table {
 }
 
 .intro-page .intro-page-wrapper .btn-download-app:hover {
-  color: #26a9f1;
+  color: var(--blue-color);
   background: #fff;
-  outline-color: #26a9f1;
+  outline-color: var(--blue-color);
 }
 
 .intro-page .intro-page-wrapper .socials {
@@ -278,7 +279,7 @@ table {
   border: 1px solid #e6e4e7;
   background: #f4f3f4;
   border-radius: 8px;
-  color: #26a9f1;
+  color: var(--blue-color);
   text-decoration: none;
   font-size: 20px;
   -webkit-transition: all .3s ease;
@@ -287,5 +288,5 @@ table {
 
 .intro-page .intro-page-wrapper .socials a:hover {
   color: #f4f3f4;
-  background: #26a9f1;
+  background: var(--blue-color);
 }
